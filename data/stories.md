@@ -1,31 +1,22 @@
-## happy path
-* greet
-  - utter_greet
-* mood_great
-  - utter_happy
+## hist_1
+* oi
+  - utter_oi
 
-## sad path 1
-* greet
-  - utter_greet
-* mood_unhappy
-  - utter_cheer_up
-  - utter_did_that_help
-* affirm
-  - utter_happy
+## informar telefone
+* informar_telefone
+  - utter_telefone_salvo
+  - telefone_form
+  - form{"name":"telefone_form"}
+  - form{"name":null}
+  - utter_tchau
 
-## sad path 2
-* greet
-  - utter_greet
-* mood_unhappy
-  - utter_cheer_up
-  - utter_did_that_help
-* deny
-  - utter_goodbye
+## perguntar telefone
+* perguntar_telefone
+  - telefone_form
+  - form{"name":"telefone_form"}
+  - form{"name":null}
+  - utter_tchau
 
-## say goodbye
-* goodbye
-  - utter_goodbye
-
-## bot challenge
-* bot_challenge
-  - utter_iamabot
+## call_teste
+* teste
+  -action_test

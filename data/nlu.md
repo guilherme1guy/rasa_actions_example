@@ -1,56 +1,23 @@
-## intent:greet
-- hey
-- hello
-- hi
-- good morning
-- good evening
-- hey there
+## intent:oi
+- oi
+- olá
+- oi, como vai?
+- olá, tudo bem?
 
-## intent:goodbye
-- bye
-- goodbye
-- see you around
-- see you later
+## intent:informar_telefone
+- o meu telefone é [99999-9999](telefone)
+- meu numero é [12345-6789](telefone)
+- [98556-1234](telefone)
+- [998397616](telefone)
 
-## intent:affirm
-- yes
-- indeed
-- of course
-- that sounds good
-- correct
+## intent:perguntar_telefone
+- qual é o meu telefone?
+- qual é meu numero?
+- você sabe meu número de telefone?
 
-## intent:deny
-- no
-- never
-- I don't think so
-- don't like that
-- no way
-- not really
+## intent:teste
+- teste
+- testando
 
-## intent:mood_great
-- perfect
-- very good
-- great
-- amazing
-- wonderful
-- I am feeling very good
-- I am great
-- I'm good
-
-## intent:mood_unhappy
-- sad
-- very sad
-- unhappy
-- bad
-- very bad
-- awful
-- terrible
-- not very good
-- extremely sad
-- so sad
-
-## intent:bot_challenge
-- are you a bot?
-- are you a human?
-- am I talking to a bot?
-- am I talking to a human?
+## regex:telefone
+- [0-9]{5}\-[0-9]{4}|[0-9]{9}
